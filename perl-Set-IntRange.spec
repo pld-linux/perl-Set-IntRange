@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntRange
-Summary:	Set::IntRange - Sets of Integers Easy manipulation of sets of integers
-Summary(pl):	Modu³ Set::IntRange - u³atwiaj±cy operacje na zbiorach liczb ca³kowitych
+Summary:	Set::IntRange Perl module - easy manipulation of sets of integers
+Summary(pl):	Modu³ Perla Set::IntRange - u³atwienie operacji na zbiorach liczb ca³kowitych
 Name:		perl-Set-IntRange
 Version:	5.1
 Release:	2
