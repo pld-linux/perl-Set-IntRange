@@ -1,16 +1,20 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntRange
 Summary:	Set::IntRange - Sets of Integers Easy manipulation of sets of integers
 Summary(pl):	Modu³ Set::IntRange - u³atwiaj±cy operacje na zbiorach liczb ca³kowitych
 Name:		perl-Set-IntRange
-Version:	5.0
-Release:	10
+Version:	5.1
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	perl-Bit-Vector
+BuildRequires:	perl-Bit-Vector >= 5.0
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,6 +34,7 @@ operacje dla zbiorów.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -41,6 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README*
 %{perl_sitelib}/Set/IntRange.pm
 %{_mandir}/man3/*
