@@ -3,7 +3,7 @@ Summary:	Set-IntRange perl module
 Summary(pl):	Modu³ perla Set-IntRange
 Name:		perl-Set-IntRange
 Version:	5.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
