@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Set
-%define	pnam	IntRange
+%define		pdir	Set
+%define		pnam	IntRange
 Summary:	Set::IntRange Perl module - easy manipulation of sets of integers
 Summary(pl):	Modu³ Perla Set::IntRange - u³atwienie operacji na zbiorach liczb ca³kowitych
 Name:		perl-Set-IntRange
