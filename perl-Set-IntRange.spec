@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntRange
-%include	/usr/lib/rpm/macros.perl
 Summary:	Set-IntRange perl module
 Summary(pl):	Modu³ perla Set-IntRange
 Name:		perl-Set-IntRange
 Version:	5.0
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Set-IntRange perl module.
 Modu³ perla Set-IntRange.
 
 %prep
-%setup -q -n Set-IntRange-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
