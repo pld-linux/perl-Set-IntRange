@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntRange
-Summary:	Set::IntRange perl module
-Summary(pl):	Modu³ perla Set::IntRange
+Summary:	Set::IntRange - Sets of Integers Easy manipulation of sets of integers
 Name:		perl-Set-IntRange
 Version:	5.0
 Release:	8
@@ -16,10 +15,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set::IntRange perl module.
-
-%description -l pl
-Modu³ perla Set::IntRange.
+This class lets you dynamically create sets of arbitrary intervals of
+integers and perform all the basic operations for sets on them (for a
+list of available methods and operators, see above).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
