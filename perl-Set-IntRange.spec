@@ -9,7 +9,7 @@ Summary:	Set::IntRange - Sets of Integers Easy manipulation of sets of integers
 Summary(pl):	Modu³ Set::IntRange - u³atwiaj±cy operacje na zbiorach liczb ca³kowitych
 Name:		perl-Set-IntRange
 Version:	5.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
