@@ -4,7 +4,7 @@
 Summary:	Set::IntRange - Sets of Integers Easy manipulation of sets of integers
 Name:		perl-Set-IntRange
 Version:	5.0
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
