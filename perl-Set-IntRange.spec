@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntRange
-Summary:	Set-IntRange perl module
-Summary(pl):	Modu³ perla Set-IntRange
+Summary:	Set::IntRange perl module
+Summary(pl):	Modu³ perla Set::IntRange
 Name:		perl-Set-IntRange
 Version:	5.0
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set-IntRange perl module.
+Set::IntRange perl module.
 
 %description -l pl
-Modu³ perla Set-IntRange.
+Modu³ perla Set::IntRange.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
