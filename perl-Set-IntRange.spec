@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Set-IntRange
 Name:		perl-Set-IntRange
 Version:	5.0
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Set/Set-IntRange-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Set/Set-IntRange-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Bit-Vector
@@ -16,7 +16,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set-IntRange perl module. 
+Set-IntRange perl module.
 
 %description -l pl
 Modu³ perla Set-IntRange.
