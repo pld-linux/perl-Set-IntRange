@@ -6,7 +6,7 @@
 %define		pdir	Set
 %define		pnam	IntRange
 Summary:	Set::IntRange Perl module - easy manipulation of sets of integers
-Summary(pl):	Modu≥ Perla Set::IntRange - u≥atwienie operacji na zbiorach liczb ca≥kowitych
+Summary(pl.UTF-8):   Modu≈Ç Perla Set::IntRange - u≈Çatwienie operacji na zbiorach liczb ca≈Çkowitych
 Name:		perl-Set-IntRange
 Version:	5.1
 Release:	3
@@ -25,10 +25,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This class lets you dynamically create sets of arbitrary intervals of
 integers and perform all the basic operations for sets on them.
 
-%description -l pl
-Ta klasa pozwala dynamicznie tworzyÊ zbiory dowolnych przedzia≥Ûw
-liczb ca≥kowitych i przeprowadzaÊ na nich wszystkie podstawowe
-operacje dla zbiorÛw.
+%description -l pl.UTF-8
+Ta klasa pozwala dynamicznie tworzyƒá zbiory dowolnych przedzia≈Ç√≥w
+liczb ca≈Çkowitych i przeprowadzaƒá na nich wszystkie podstawowe
+operacje dla zbior√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
