@@ -6,7 +6,7 @@
 %define		pdir	Set
 %define		pnam	IntRange
 Summary:	Set::IntRange Perl module - easy manipulation of sets of integers
-Summary(pl.UTF-8):   Moduł Perla Set::IntRange - ułatwienie operacji na zbiorach liczb całkowitych
+Summary(pl.UTF-8):	Moduł Perla Set::IntRange - ułatwienie operacji na zbiorach liczb całkowitych
 Name:		perl-Set-IntRange
 Version:	5.1
 Release:	3
