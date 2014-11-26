@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Set
 %define		pnam	IntRange
+%include	/usr/lib/rpm/macros.perl
 Summary:	Set::IntRange Perl module - easy manipulation of sets of integers
 Summary(pl.UTF-8):	Moduł Perla Set::IntRange - ułatwienie operacji na zbiorach liczb całkowitych
 Name:		perl-Set-IntRange
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0c885f01cdcfe624e648f8feb2123297
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Set-IntRange/
 BuildRequires:	perl-Bit-Vector >= 7.1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
